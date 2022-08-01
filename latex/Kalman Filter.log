@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.10)  2 AUG 2022 00:50
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.10)  2 AUG 2022 00:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,4 +1410,147 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Command \. invalid in math mode on input line 240.
 
-Missing character: There is no ̇ (
+Missing character: There is no ̇ ("307) in font cmmi10!
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[4]
+File: images//Errors Histogram [Linear Model with Control].png Graphic file (ty
+pe bmp)
+<images//Errors Histogram [Linear Model with Control].png>
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/it' will be
+(Font)              scaled to size 11.00006pt on input line 328.
+File: images//Heatmap [Linear Model with Control].png Graphic file (type bmp)
+<images//Heatmap [Linear Model with Control].png>
+
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 332--334
+ [][][][][][] 
+ []
+
+File: images//Returns and Kalman Filtering [Linear Model with Control].png Grap
+hic file (type bmp)
+<images//Returns and Kalman Filtering [Linear Model with Control].png>
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[5]
+File: images//alpha comparison.png Graphic file (type bmp)
+<images//alpha comparison.png>
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[6]
+File: images//Errors Histogram [Weighted (93%) Linear Model with Control].png G
+raphic file (type bmp)
+<images//Errors Histogram [Weighted (93%) Linear Model with Control].png>
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
+(Font)              scaled to size 8.80005pt on input line 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
+(Font)              scaled to size 6.60004pt on input line 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <8> not availab
+le
+(Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
+ine 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
+(Font)              scaled to size 8.80005pt on input line 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <6> not availab
+le
+(Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
+ine 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
+(Font)              scaled to size 6.60004pt on input line 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
+(Font)              scaled to size 8.80005pt on input line 435.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
+(Font)              scaled to size 6.60004pt on input line 435.
+File: images//Errors Histogram [Weighted (94%) Linear Model with Control].png G
+raphic file (type bmp)
+<images//Errors Histogram [Weighted (94%) Linear Model with Control].png>
+File: images//Errors Histogram [Weighted (95%) Linear Model with Control].png G
+raphic file (type bmp)
+<images//Errors Histogram [Weighted (95%) Linear Model with Control].png>
+File: images//Errors Histogram [Weighted (96%) Linear Model with Control].png G
+raphic file (type bmp)
+<images//Errors Histogram [Weighted (96%) Linear Model with Control].png>
+File: images//Errors Histogram [Weighted (97%) Linear Model with Control].png G
+raphic file (type bmp)
+<images//Errors Histogram [Weighted (97%) Linear Model with Control].png>
+File: images//Errors Histogram [Weighted (98%) Linear Model with Control].png G
+raphic file (type bmp)
+<images//Errors Histogram [Weighted (98%) Linear Model with Control].png>
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
+(Font)              scaled to size 11.00006pt on input line 448.
+File: images//Returns and Kalman Filtering [Weighted (94%) Linear Model with Co
+ntrol].png Graphic file (type bmp)
+<images//Returns and Kalman Filtering [Weighted (94%) Linear Model with Control
+].png>
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[7]
+
+LaTeX Warning: Citation `Sung' on page 8 undefined on input line 505.
+
+No file "Kalman Filter".bbl.
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[8] (./Kalman Filter.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `"Kalman Filter".out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+ ) 
+Here is how much of TeX's memory you used:
+ 28137 strings out of 476919
+ 553225 string characters out of 5825423
+ 965753 words of memory out of 5000000
+ 47510 multiletter control sequences out of 15000+600000
+ 410553 words of font info for 105 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 111i,13n,117p,4863b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Kalman Filter.pdf (8 pages).
