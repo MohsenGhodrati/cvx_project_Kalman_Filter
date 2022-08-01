@@ -273,9 +273,9 @@ def plot_returns_and_filter(results, indices, title, colors=None):
 def load_results(title, k, m, alpha_inv=None):
 
     if title == 'Linear Model without Control':
-        filename = f'linear_model_with_control[k={k},m={m}]'
-    elif title == 'Linear Model with Control':
         filename = f'linear_model_without_control[k={k},m={m}]'
+    elif title == 'Linear Model with Control':
+        filename = f'linear_model_with_control[k={k},m={m}]'
     elif title.startswith('Weighted (') and title.endswith(') Linear Model with Control'):
         if alpha_inv is not None:
             alpha = 1. / (alpha_inv / 100)
