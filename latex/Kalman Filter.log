@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.10)  2 AUG 2022 00:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.10)  2 AUG 2022 02:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,33 +1324,29 @@ LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 13.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
 (Font)              scaled to size 15.84007pt on input line 13.
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 13.20007pt on input line 17.
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 11.00006pt on input line 45.
-
-LaTeX Warning: Command \. invalid in math mode on input line 50.
-
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 51.
-Missing character: There is no ̇ ("307) in font cmmi10!
+(Font)              scaled to size 11.00006pt on input line 16.
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
+(Font)              scaled to size 13.20007pt on input line 19.
+File: images//ex1_MeasurementsVsTrueVal.png Graphic file (type bmp)
+<images//ex1_MeasurementsVsTrueVal.png>
 [1
 
 ]
+File: images//ex1_estimationAlgorithm.png Graphic file (type bmp)
+<images//ex1_estimationAlgorithm.png>
+File: images//Screenshot 2022-08-02 02.01.24.png Graphic file (type bmp)
+<images//Screenshot 2022-08-02 02.01.24.png>
 
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 56.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Command \. invalid in math mode on input line 93.
-
-Missing character: There is no ̇ ("307) in font cmmi10!
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 134.
+(Font)              scaled to size 7.0pt on input line 85.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 7.0pt on input line 134.
+(Font)              scaled to size 7.0pt on input line 85.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 7.70004pt on input line 134.
+(Font)              scaled to size 7.70004pt on input line 85.
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
 
@@ -1362,42 +1358,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
 [2]
-
-LaTeX Font Warning: Font shape `TU/HMXNiloofar(0)/m/it' undefined
-(Font)              using `TU/HMXNiloofar(0)/m/n' instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `TU/HMXNiloofar(1)/m/it' undefined
-(Font)              using `TU/HMXNiloofar(1)/m/n' instead on input line 176.
-
-File: images//Errors Histogram [Linear Model without Control].png Graphic file 
-(type bmp)
-<images//Errors Histogram [Linear Model without Control].png>
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 184.
-File: images//Heatmap [Linear Model without Control].png Graphic file (type bmp
-)
-<images//Heatmap [Linear Model without Control].png>
-
-Overfull \hbox (48.37263pt too wide) in paragraph at lines 188--190
- [][][][][][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images//Returns and Kalman Filtering [Linear Model without Control].png G
-raphic file (type bmp)
-<images//Returns and Kalman Filtering [Linear Model without Control].png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Command \. invalid in math mode on input line 210.
-
-Missing character: There is no ̇ ("307) in font cmmi10!
+File: images//Correlation with Future.png Graphic file (type bmp)
+<images//Correlation with Future.png>
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 26.35687pt, for example:
@@ -1407,8 +1372,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
 [3]
+File: images//best_k.png Graphic file (type bmp)
+<images//best_k.png>
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
+(Font)              scaled to size 11.00006pt on input line 145.
 
-LaTeX Warning: Command \. invalid in math mode on input line 240.
+
+LaTeX Warning: Command \. invalid in math mode on input line 150.
+
+Missing character: There is no ̇ ("307) in font cmmi10!
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 156.
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 193.
 
 Missing character: There is no ̇ ("307) in font cmmi10!
 File: images//logo.png Graphic file (type bmp)
@@ -1422,21 +1400,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
 [4]
-File: images//Errors Histogram [Linear Model with Control].png Graphic file (ty
-pe bmp)
-<images//Errors Histogram [Linear Model with Control].png>
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/it' will be
-(Font)              scaled to size 11.00006pt on input line 328.
-File: images//Heatmap [Linear Model with Control].png Graphic file (type bmp)
-<images//Heatmap [Linear Model with Control].png>
 
-Overfull \hbox (48.37263pt too wide) in paragraph at lines 332--334
+LaTeX Font Warning: Font shape `TU/HMXNiloofar(0)/m/it' undefined
+(Font)              using `TU/HMXNiloofar(0)/m/n' instead on input line 275.
+
+
+LaTeX Font Warning: Font shape `TU/HMXNiloofar(1)/m/it' undefined
+(Font)              using `TU/HMXNiloofar(1)/m/n' instead on input line 276.
+
+File: images//Errors Histogram [Linear Model without Control].png Graphic file 
+(type bmp)
+<images//Errors Histogram [Linear Model without Control].png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 284.
+File: images//Heatmap [Linear Model without Control].png Graphic file (type bmp
+)
+<images//Heatmap [Linear Model without Control].png>
+
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 288--290
  [][][][][][] 
  []
 
-File: images//Returns and Kalman Filtering [Linear Model with Control].png Grap
-hic file (type bmp)
-<images//Returns and Kalman Filtering [Linear Model with Control].png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images//Returns and Kalman Filtering [Linear Model without Control].png G
+raphic file (type bmp)
+<images//Returns and Kalman Filtering [Linear Model without Control].png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 310.
+
+Missing character: There is no ̇ ("307) in font cmmi10!
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
 
@@ -1448,11 +1448,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
 [5]
-File: images//alpha comparison.png Graphic file (type bmp)
-<images//alpha comparison.png>
+
+LaTeX Warning: Command \. invalid in math mode on input line 340.
+
+Missing character: There is no ̇ ("307) in font cmmi10!
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 26.35687pt, for example:
@@ -1462,31 +1463,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
 [6]
+File: images//Errors Histogram [Linear Model with Control].png Graphic file (ty
+pe bmp)
+<images//Errors Histogram [Linear Model with Control].png>
+LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/it' will be
+(Font)              scaled to size 11.00006pt on input line 428.
+File: images//Heatmap [Linear Model with Control].png Graphic file (type bmp)
+<images//Heatmap [Linear Model with Control].png>
+
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 432--434
+ [][][][][][] 
+ []
+
+File: images//Returns and Kalman Filtering [Linear Model with Control].png Grap
+hic file (type bmp)
+<images//Returns and Kalman Filtering [Linear Model with Control].png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[7]
+File: images//alpha comparison.png Graphic file (type bmp)
+<images//alpha comparison.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: images//Errors Histogram [Weighted (93%) Linear Model with Control].png G
 raphic file (type bmp)
 <images//Errors Histogram [Weighted (93%) Linear Model with Control].png>
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 435.
+(Font)              scaled to size 8.0pt on input line 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
-(Font)              scaled to size 8.80005pt on input line 435.
+(Font)              scaled to size 8.80005pt on input line 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
-(Font)              scaled to size 6.60004pt on input line 435.
+(Font)              scaled to size 6.60004pt on input line 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <8> not availab
 le
 (Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
-ine 435.
+ine 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
-(Font)              scaled to size 8.80005pt on input line 435.
+(Font)              scaled to size 8.80005pt on input line 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <6> not availab
 le
 (Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
-ine 435.
+ine 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
-(Font)              scaled to size 6.60004pt on input line 435.
+(Font)              scaled to size 6.60004pt on input line 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
-(Font)              scaled to size 8.80005pt on input line 435.
+(Font)              scaled to size 8.80005pt on input line 535.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
-(Font)              scaled to size 6.60004pt on input line 435.
+(Font)              scaled to size 6.60004pt on input line 535.
 File: images//Errors Histogram [Weighted (94%) Linear Model with Control].png G
 raphic file (type bmp)
 <images//Errors Histogram [Weighted (94%) Linear Model with Control].png>
@@ -1503,14 +1539,16 @@ File: images//Errors Histogram [Weighted (98%) Linear Model with Control].png G
 raphic file (type bmp)
 <images//Errors Histogram [Weighted (98%) Linear Model with Control].png>
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
-(Font)              scaled to size 11.00006pt on input line 448.
+(Font)              scaled to size 11.00006pt on input line 548.
 File: images//Returns and Kalman Filtering [Weighted (94%) Linear Model with Co
 ntrol].png Graphic file (type bmp)
 <images//Returns and Kalman Filtering [Weighted (94%) Linear Model with Control
 ].png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 26.35687pt, for example:
@@ -1519,9 +1557,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
-[7]
+[8]
 
-LaTeX Warning: Citation `Sung' on page 8 undefined on input line 505.
+LaTeX Warning: Command \. invalid in math mode on input line 620.
+
+Missing character: There is no ̇ ("307) in font cmmi10!
+
+LaTeX Warning: Citation `Sung' on page 9 undefined on input line 652.
 
 No file "Kalman Filter".bbl.
 File: images//logo.png Graphic file (type bmp)
@@ -1534,23 +1576,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
-[8] (./Kalman Filter.aux)
+[9]
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[10]
+File: images//logo.png Graphic file (type bmp)
+<images//logo.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 26.35687pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.35687pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
+
+[11] (./Kalman Filter.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `"Kalman Filter".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 28137 strings out of 476919
- 553225 string characters out of 5825423
- 965753 words of memory out of 5000000
- 47510 multiletter control sequences out of 15000+600000
+ 28168 strings out of 476919
+ 554267 string characters out of 5825423
+ 972753 words of memory out of 5000000
+ 47536 multiletter control sequences out of 15000+600000
  410553 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  111i,13n,117p,4863b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Kalman Filter.pdf (8 pages).
+Output written on Kalman Filter.pdf (11 pages).
