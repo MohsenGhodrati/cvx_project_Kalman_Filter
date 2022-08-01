@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.10)  1 AUG 2022 18:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.10)  2 AUG 2022 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,31 +1170,31 @@ as'HM XNiloofar' on input line 63.
 ) (./Kalman Filter.aux)
 \openout1 = `"Kalman Filter.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 .
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1235,7 +1235,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 3.
+Package hyperref Info: Link coloring OFF on input line 5.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1247,9 +1247,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count394
 )
-LaTeX Info: Redefining \ref on input line 3.
-LaTeX Info: Redefining \pageref on input line 3.
-LaTeX Info: Redefining \nameref on input line 3.
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
 
 (./Kalman Filter.out) (./Kalman Filter.out)
 \@outlinefile=\write4
@@ -1258,97 +1258,99 @@ LaTeX Info: Redefining \nameref on input line 3.
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
 [][]
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
 
 (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 8.
+(Font)              scaled to size 11.00006pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
-(Font)              scaled to size 7.70004pt on input line 8.
+(Font)              scaled to size 7.70004pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/n' will be
-(Font)              scaled to size 5.50003pt on input line 8.
+(Font)              scaled to size 5.50003pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <10> not availa
 ble
 (Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
-ine 8.
+ine 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
-(Font)              scaled to size 11.00006pt on input line 8.
+(Font)              scaled to size 11.00006pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <7> not availab
 le
 (Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
-ine 8.
+ine 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
-(Font)              scaled to size 7.70004pt on input line 8.
+(Font)              scaled to size 7.70004pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/bx/n' in size <5> not availab
 le
 (Font)              Font shape `TU/HMXNiloofar(2)/b/n' tried instead on input l
-ine 8.
+ine 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/b/n' will be
-(Font)              scaled to size 5.50003pt on input line 8.
+(Font)              scaled to size 5.50003pt on input line 10.
 
 
 LaTeX Font Warning: Font shape `TU/HMXNiloofar(2)/m/it' undefined
-(Font)              using `TU/HMXNiloofar(2)/m/n' instead on input line 8.
+(Font)              using `TU/HMXNiloofar(2)/m/n' instead on input line 10.
 
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
-(Font)              scaled to size 7.70004pt on input line 8.
+(Font)              scaled to size 7.70004pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(2)/m/it' will be
-(Font)              scaled to size 5.50003pt on input line 8.
+(Font)              scaled to size 5.50003pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 8.
+(Font)              scaled to size 10.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 8.
+(Font)              scaled to size 24.88pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 8.
+(Font)              scaled to size 12.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 8.
+(Font)              scaled to size 20.74pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 8.
+(Font)              scaled to size 12.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/n' will be
-(Font)              scaled to size 13.20007pt on input line 8.
+(Font)              scaled to size 13.20007pt on input line 10.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
+(Font)              scaled to size 14.4pt on input line 13.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
+(Font)              scaled to size 14.4pt on input line 13.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 15.84007pt on input line 11.
+(Font)              scaled to size 15.84007pt on input line 13.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 13.20007pt on input line 15.
+(Font)              scaled to size 13.20007pt on input line 17.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 11.00006pt on input line 43.
+(Font)              scaled to size 11.00006pt on input line 45.
 
-LaTeX Warning: Command \. invalid in math mode on input line 48.
+LaTeX Warning: Command \. invalid in math mode on input line 50.
 
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 49.
+(Font)              scaled to size 11.00006pt on input line 51.
 Missing character: There is no ̇ ("307) in font cmmi10!
 [1
 
 ]
 
 Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 54.
+d on input line 56.
 
 
-LaTeX Warning: Command \. invalid in math mode on input line 88.
+LaTeX Warning: Command \. invalid in math mode on input line 93.
 
 Missing character: There is no ̇ ("307) in font cmmi10!
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 129.
+(Font)              scaled to size 7.0pt on input line 134.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/b/n' will be
-(Font)              scaled to size 7.0pt on input line 129.
+(Font)              scaled to size 7.0pt on input line 134.
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/b/n' will be
-(Font)              scaled to size 7.70004pt on input line 129.
+(Font)              scaled to size 7.70004pt on input line 134.
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
 
@@ -1362,24 +1364,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 
 LaTeX Font Warning: Font shape `TU/HMXNiloofar(0)/m/it' undefined
-(Font)              using `TU/HMXNiloofar(0)/m/n' instead on input line 170.
+(Font)              using `TU/HMXNiloofar(0)/m/n' instead on input line 175.
 
 
 LaTeX Font Warning: Font shape `TU/HMXNiloofar(1)/m/it' undefined
-(Font)              using `TU/HMXNiloofar(1)/m/n' instead on input line 171.
+(Font)              using `TU/HMXNiloofar(1)/m/n' instead on input line 176.
 
 File: images//Errors Histogram [Linear Model without Control].png Graphic file 
 (type bmp)
 <images//Errors Histogram [Linear Model without Control].png>
 LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 179.
+(Font)              scaled to size 10.0pt on input line 184.
 File: images//Heatmap [Linear Model without Control].png Graphic file (type bmp
 )
 <images//Heatmap [Linear Model without Control].png>
 
-Overfull \hbox (48.37263pt too wide) in paragraph at lines 183--185
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 188--190
  [][][][][][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images//Returns and Kalman Filtering [Linear Model without Control].png G
 raphic file (type bmp)
@@ -1387,6 +1392,10 @@ raphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Command \. invalid in math mode on input line 210.
+
+Missing character: There is no ̇ ("307) in font cmmi10!
 File: images//logo.png Graphic file (type bmp)
 <images//logo.png>
 
@@ -1398,109 +1407,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
 
 [3]
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
 
+LaTeX Warning: Command \. invalid in math mode on input line 240.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.35687pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.35687pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
-
-[4]
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 417.
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/it' will be
-(Font)              scaled to size 5.0pt on input line 417.
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/it' will be
-(Font)              scaled to size 11.00006pt on input line 433.
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.35687pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.35687pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
-
-[5]
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.35687pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.35687pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
-
-[6]
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 631.
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.35687pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.35687pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
-
-[7]
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 781.
-LaTeX Font Info:    Font shape `TU/HMXNiloofar(1)/m/n' will be
-(Font)              scaled to size 8.80005pt on input line 781.
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.35687pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.35687pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
-
-[8]
-
-LaTeX Warning: Citation `Sung' on page 9 undefined on input line 930.
-
-No file "Kalman Filter".bbl.
-File: images//logo.png Graphic file (type bmp)
-<images//logo.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 26.35687pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.35687pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-14.35687pt}.
-
-[9] (./Kalman Filter.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `"Kalman Filter".out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
- ) 
-Here is how much of TeX's memory you used:
- 28096 strings out of 476919
- 549525 string characters out of 5825423
- 1055781 words of memory out of 5000000
- 47493 multiletter control sequences out of 15000+600000
- 406824 words of font info for 90 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 111i,16n,117p,4845b,910s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on Kalman Filter.pdf (9 pages).
+Missing character: There is no ̇ (

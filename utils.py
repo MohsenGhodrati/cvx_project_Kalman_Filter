@@ -1,4 +1,5 @@
 import requests
+import numpy as np
 from datetime import datetime, timedelta, timezone
 import pandas as pd
 from contexttimer import Timer
@@ -272,15 +273,11 @@ def plot_returns_and_filter(results, indices, title, colors=None):
 
 def load_results(title, k, m, alpha_inv=None):
 
-    if title == 'Linear Model without Control':
-        filename = f'linear_model_without_control[k={k},m={m}]'
-    elif title == 'Linear Model with Control':
-        filename = f'linear_model_with_control[k={k},m={m}]'
-    elif title.startswith('Weighted (') and title.endswith(') Linear Model with Control'):
-        if alpha_inv is not None:
-            alpha = 1. / (alpha_inv / 100)
-        filename = f'weighted_linear_model_with_control[k={k},m={m},a={alpha}]'
-
+    if alpha_inv is not None:
+        alpha = 1. / (alpha_inv / 100)
+    else:
+        alpha = 1.
+    filename = f'{title}[k={k:05d},m={m:05d},a={alpha:.3f}].csv'
     results = pd.read_csv(str(ROOT) + f'/data/{filename}')
     results['Unnamed: 0'] = pd.to_datetime(results['Unnamed: 0'])
     results.set_index('Unnamed: 0', drop=True, inplace=True)
@@ -374,3 +371,65 @@ def load_data(start_time_, end_time_):
     df_['Time'] = pd.to_datetime(df_['Time'])
     df_.set_index('Time', inplace=True, drop=True)
     return df_
+
+
+def calculate_thetas(
+    df, model_name, k, m, 
+    alpha_inv=None,
+    features=None, 
+    period_start=datetime(2019, 12, 1), 
+    period_end=datetime(2020, 2, 1)
+):
+
+    s = 0
+    if features is not None:
+        s = features.shape[1]
+        
+    alpha = 1.
+    if alpha_inv is not None:
+        alpha = 1. / (alpha_inv / 100)
+        
+    period_start_iloc = np.where(df.index == period_start)[0][0]
+    period_end_iloc = np.where(df.index == period_end)[0][0]
+
+    X = pd.DataFrame(index=df.index)
+    for i in range(m):
+        X[f'Average Price Change from last {i} candle so far'] = \
+            df['Average Price'].pct_change(1 if i == 0 else i).shift(-1 if i == 0 else 0)
+    X['bias'] = 1
+
+    THETA = []
+    results = pd.DataFrame(index=df.index)
+    results['Prediction'] = None
+    results['Measurement'] = None
+    results['Model Noise Bias'] = None
+    for n in np.arange(period_start_iloc, period_end_iloc):
+        A = np.zeros([k, m+s+1])
+        A[:, range(m+1)] = X.iloc[(n-2)-(k-1):(n-2)+1].to_numpy()
+        if features is not None:
+            A[:, range(m+1, m+s+1)] = features.iloc[(n-1)-(k-1):(n-1)+1]
+        b = X.iloc[(n-1)-(k-1):(n-1)+1, 0].values
+
+        if isinstance(alpha_inv, int) and model_name == f'Weighted ({alpha_inv:02d}%) Linear Model with Control':
+            W = np.diag(alpha ** np.arange(k) / np.sum(alpha ** np.arange(k)))
+            theta, _, _, _ = np.linalg.lstsq(np.dot(W, A), np.dot(W, b), rcond=-1)
+        else:
+            theta, _, _, _ = np.linalg.lstsq(A, b, rcond=-1)
+        THETA.append(theta)
+        pos = results.index[n]
+        results.loc[pos, 'Model Noise Bias'] = (np.dot(A, theta) - b).mean()
+        results.loc[pos, 'Prediction'] = np.dot(theta[0:m+1], X.iloc[n-1].values) +\
+                                         results.loc[pos, 'Model Noise Bias']
+        if model_name == 'Linear Model with Control':
+            results.loc[pos, 'Prediction'] = results.loc[pos, 'Prediction'] +\
+                                             np.dot(theta[m+1:m+1+s], features.iloc[n].values)
+        results.loc[pos, 'Measurement'] = df.iloc[n]['Open'] / df.iloc[n-1]['Average Price'] - 1
+
+    indices = df.index[period_start_iloc:period_end_iloc]
+    results = results.loc[indices]
+    results['Reality'] = df['Average Price Change'].shift(-1).loc[indices].values
+    THETA = pd.DataFrame(THETA, index=indices)
+    
+    results = pd.concat([results, THETA], axis=1)
+    results.to_csv(f'data/{model_name}[k={k:05d},m={m:05d},a={alpha:.3f}].csv')
+    return results
